@@ -407,7 +407,8 @@ elif page == "➕ Add CV":
     with upload_tab:
         uploaded = st.file_uploader("Upload CV file (PDF / DOCX / TXT / CSV)", type=['pdf', 'docx', 'txt', 'csv'])
         if uploaded is not None:
-            file_bytes = uploaded.read()
+            file_bytes = uploaded.getvalue()
+            text = docproc.extract_text_from_file(file_bytes, uploaded.name)
             filename = uploaded.name.lower()
             st.info(f"Processing {uploaded.name} ...")
             # If CSV - append rows directly
@@ -551,3 +552,4 @@ st.markdown("""
     <p>🎯 Konecta ATS System v1.0 | Powered by Gemini 2.0 Flash | Built with Streamlit</p>
 </div>
 """, unsafe_allow_html=True)
+
