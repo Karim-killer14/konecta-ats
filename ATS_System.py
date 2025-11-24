@@ -15,8 +15,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import warnings
 warnings.filterwarnings('ignore')
-import PyPDF2
-import docx
 from datetime import date
 
 # Optional third-party libs used for extraction - ensure installed in your venv
@@ -705,4 +703,5 @@ def run_ats_demo():
 
 if __name__ == "__main__":
     run_ats_demo()
+
 
