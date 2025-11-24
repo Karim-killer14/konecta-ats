@@ -1,0 +1,122 @@
+======================================================================
+KONECTA ATS SYSTEM - INTEGRATION TEST SUITE
+======================================================================
+
+
+======================================================================
+TEST 1: Health Check
+======================================================================
+✓ API is healthy: healthy
+ℹ Service: Konecta ATS AI Service
+
+======================================================================
+TEST 2: Get All CVs
+======================================================================
+✓ Retrieved 500 CVs
+ℹ Sample CV: Amr Ali
+  - Experience: 1 years
+  - Skills: PostgreSQL, C++, Excel...
+
+======================================================================
+TEST 3: Get All Jobs
+======================================================================
+✓ Retrieved 20 jobs
+ℹ Sample Job: Cloud Architect
+  - Department: Marketing
+  - Required Experience: 3 years
+  - Status: Open
+
+======================================================================
+TEST 4: CV-Job Matching
+======================================================================
+ℹ Matching CV_0001 to JOB_001...
+✓ Match Score: 36.8%
+  - Skill Match: 16.7%
+  - Experience Match: 60.0%
+  - Text Similarity: 10.8%
+ℹ AI Explanation:
+  Amr Ali has limited alignment with this role. While they have 1 years of experience, only 1 of the required skills match. Key gaps include Power BI, Machine Learning, Kubernetes, suggesting this may n...
+
+======================================================================
+TEST 5: Candidate Ranking
+======================================================================
+ℹ Ranking top 5 candidates for JOB_001...
+✓ Evaluated 500 candidates
+ℹ Top 5 for Cloud Architect:
+  1. Mona Ali             Score:  70.7%
+  2. Hassan Salem         Score:  70.0%
+  3. Dalia Taha           Score:  69.7%
+  4. Fatma Mostafa        Score:  69.3%
+  5. Noha Mansour         Score:  69.1%
+
+======================================================================
+TEST 6: AI Explainability
+======================================================================
+ℹ Generating explanation for CV_0001 and JOB_001...
+✓ Match Score: 36.8%
+ℹ AI Reasoning:
+  Amr Ali has limited alignment with this role. While they have 1 years of experience, only 1 of the required skills match. Key gaps include Power BI, M...
+ℹ Skill Analysis:
+  Matched: 1 skills
+  Missing: 5 skills
+ℹ Interview Questions Generated:
+  1. Describe your experience with Full Stack Developer...
+  2. How have you applied PostgreSQL in past projects?...
+  3. What interests you about this role?...
+
+======================================================================
+TEST 7: RAG Chatbot
+======================================================================
+ℹ Query: What positions do we have open?
+  Response: We currently have 17 open positions across departments including Marketing, Finance, HR. The top roles are Cloud Architect, Customer Success Manager, ...
+✓ Query successful
+ℹ Query: Tell me about CV_0001
+  Response: Amr Ali has 1 years of experience as a Full Stack Developer. Key skills include PostgreSQL, C++, Excel, Presentation Skills, Project Management. Locat...
+✓ Query successful
+ℹ Query: How many candidates have Python skills?
+  Response: We have 93 candidates with Python skills in our database, ranging from 0 to 10 years of experience....
+✓ Query successful
+
+======================================================================
+TEST 8: Analytics
+======================================================================
+ℹ Fetching system analytics...
+✓ Analytics retrieved
+  - Total Candidates: 500
+  - Total Jobs: 20
+  - Open Positions: 17
+  - Avg Experience: 3.3 years
+ℹ Top 5 Skills:
+  - Negotiation: 156 candidates
+  - Conflict Resolution: 148 candidates
+  - Analytical Thinking: 142 candidates
+  - Leadership: 138 candidates
+  - Problem Solving: 136 candidates
+
+======================================================================
+TEST 9: CV Search
+======================================================================
+ℹ Searching for candidates with 3+ years experience and Python skills...
+✓ Found 59 matching candidates
+ℹ Sample results:
+  - Heba Morsi: 3 years
+  - Khaled El Sayed: 3 years
+  - Mariam Sayed: 4 years
+
+======================================================================
+TEST RESULTS SUMMARY
+======================================================================
+✓ PASS          Health Check
+✓ PASS          Get CVs
+✓ PASS          Get Jobs
+✓ PASS          CV-Job Matching
+✓ PASS          Candidate Ranking
+✓ PASS          AI Explainability
+✓ PASS          RAG Chatbot
+✓ PASS          Analytics
+✓ PASS          Search Functionality
+
+======================================================================
+ALL TESTS PASSED! (9/9)
+System is fully operational and ready for integration!
+======================================================================

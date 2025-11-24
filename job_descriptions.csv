@@ -1,0 +1,21 @@
+﻿job_id,job_title,department,required_experience_years,required_skills,preferred_education,salary_range,employment_type,location,number_of_openings,posted_date,status
+JOB_001,Cloud Architect,Marketing,3,"Power BI, Project Management, Machine Learning, Kubernetes, Azure, Time Management",Bachelor's in Marketing,25000-40000,Contract,Remote,2,2025-10-17,Open
+JOB_002,Customer Success Manager,Finance,0,"Tableau, Team Collaboration, Presentation Skills, Data Analysis, Flask",Master's in Computer Science,10000-25000,Contract,Giza,4,2025-10-17,Open
+JOB_003,Business Analyst,HR,7,"Excel, Power BI, Communication, Node.js, Django, Adaptability",Bachelor's in Information Technology,45000-60000,Full-time,Giza,3,2025-10-12,Closed
+JOB_004,Project Manager,HR,0,"PostgreSQL, REST APIs, Git, Docker, Tableau, Kubernetes, Project Management, Team Collaboration",Master's in Computer Science,10000-25000,Full-time,Hybrid,3,2025-10-04,Open
+JOB_005,Financial Analyst,IT,2,"Conflict Resolution, Kubernetes, Negotiation, Git, Analytical Thinking, Time Management, Team Collaboration, Java, Tableau, Jenkins",Bachelor's in Finance,20000-35000,Full-time,Hybrid,3,2025-11-12,Closed
+JOB_006,Product Manager,Finance,5,"Machine Learning, SQL, Leadership, Redis, Azure, Analytical Thinking, Flask, PostgreSQL, C++, Git",Master's in Data Science,35000-50000,Full-time,Alexandria,3,2025-09-26,Closed
+JOB_007,Machine Learning Engineer,HR,1,"Tableau, Time Management, Analytical Thinking, Attention to Detail, Azure, Project Management, Node.js",Bachelor's in Computer Science,15000-30000,Full-time,Hybrid,5,2025-10-30,Open
+JOB_008,Sales Representative,HR,3,"Python, Power BI, Jenkins, Docker, Flask, Data Analysis, Java, Adaptability, REST APIs, JavaScript",Bachelor's in Marketing,25000-40000,Full-time,Remote,4,2025-10-13,Open
+JOB_009,Technical Support Specialist,Finance,3,"Angular, Machine Learning, Problem Solving, Presentation Skills, Azure, Negotiation, Data Analysis",Bachelor's in Economics,25000-40000,Full-time,Alexandria,1,2025-11-10,Open
+JOB_010,System Administrator,Operations,5,"PostgreSQL, Flask, Tableau, Redis, Project Management, Java, Communication, Negotiation",Bachelor's in Engineering,35000-50000,Full-time,Hybrid,1,2025-10-07,Open
+JOB_011,System Administrator,IT,5,"JavaScript, Critical Thinking, C++, Django, Time Management, SQL, Attention to Detail, Conflict Resolution, Flask",Master's in Computer Science,35000-50000,Full-time,Giza,1,2025-09-30,Open
+JOB_012,Customer Success Manager,Marketing,2,"REST APIs, Excel, SQL, Time Management, Microservices",Bachelor's in Computer Science,20000-35000,Part-time,Remote,4,2025-10-04,Open
+JOB_013,Machine Learning Engineer,Finance,10,"Docker, Leadership, Spring Boot, Node.js, Jenkins",Master's in Data Science,60000-75000,Full-time,Hybrid,1,2025-11-14,Open
+JOB_014,Cloud Architect,HR,0,"Kubernetes, Flask, Django, Critical Thinking, Tableau",Bachelor's in Finance,10000-25000,Contract,Cairo,5,2025-09-30,Open
+JOB_015,Cloud Architect,HR,0,"REST APIs, Project Management, SQL, JavaScript, Azure, Conflict Resolution, Docker, Kubernetes, Time Management, Python",Bachelor's in Business Administration,10000-25000,Part-time,Alexandria,5,2025-09-21,Open
+JOB_016,Sales Representative,Marketing,1,"Attention to Detail, Python, Data Analysis, Machine Learning, Project Management, PostgreSQL",Bachelor's in Finance,15000-30000,Full-time,Giza,5,2025-11-01,Open
+JOB_017,DevOps Engineer,Operations,2,"Microservices, Node.js, Data Analysis, Leadership, Java, Conflict Resolution, Critical Thinking",Master's in Data Science,20000-35000,Full-time,Cairo,1,2025-10-24,Open
+JOB_018,DevOps Engineer,Finance,1,"Power BI, Docker, Negotiation, Analytical Thinking, PostgreSQL, Problem Solving, C++, Kubernetes, Jenkins",Master's in Computer Science,15000-30000,Full-time,Alexandria,1,2025-11-04,Open
+JOB_019,System Administrator,Sales,1,"Redis, Tableau, Problem Solving, Microservices, Spring Boot, Time Management, Team Collaboration, Data Analysis",Master's in Data Science,15000-30000,Full-time,Hybrid,1,2025-09-22,Open
+JOB_020,Software Engineer,Sales,5,"Python, Machine Learning, Power BI, Leadership, Redis",Bachelor's in Economics,35000-50000,Full-time,Cairo,1,2025-10-25,Open
