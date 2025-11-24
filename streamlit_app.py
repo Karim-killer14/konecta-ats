@@ -148,10 +148,14 @@ if page == "🏠 Dashboard":
     
     # Recent Applications
     st.subheader("📅 Recent Applications")
-    recent = parser.cv_df.nlargest(5, 'application_date')[
-        ['cv_id', 'first_name', 'last_name', 'current_job_title', 
+    df = parser.cv_df.copy()
+    df['application_date'] = pd.to_datetime(df['application_date'], errors='coerce')
+
+    recent = df.nlargest(5, 'application_date')[
+        ['cv_id', 'first_name', 'last_name', 'current_job_title',
          'years_of_experience', 'application_date']
     ]
+
     st.dataframe(recent, use_container_width=True)
 
 # ============================================================================
@@ -516,4 +520,5 @@ st.markdown("""
 <div style='text-align: center; color: gray;'>
     <p>🎯 Konecta ATS System v1.0 | Powered by Gemini 2.0 Flash | Built with Streamlit</p>
 </div>
+
 """, unsafe_allow_html=True)
